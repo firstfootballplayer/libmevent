@@ -1,6 +1,6 @@
 CMakeFiles/ser.dir/src/cJSON.cpp.o: \
- /home/zjm/my_server/lib2/project/src/cJSON.cpp \
- /usr/include/stdc-predef.h /usr/include/stdio.h /usr/include/features.h \
+ /home/zjm/my_server/project/src/cJSON.cpp /usr/include/stdc-predef.h \
+ /usr/include/stdio.h /usr/include/features.h \
  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -12,4 +12,4 @@ CMakeFiles/ser.dir/src/cJSON.cpp.o: \
  /usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
- /home/zjm/my_server/lib2/project/include/cJSON.h
+ /home/zjm/my_server/project/include/cJSON.h

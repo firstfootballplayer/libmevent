@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/zjm/my_server/lib2/project/include -I/home/zjm/my_server/lib2/project/include/libmevent/base -I/home/zjm/my_server/lib2/project/include/libmevent/net
+CXX_INCLUDES = -I/home/zjm/my_server/project/include -I/home/zjm/my_server/project/include/libmevent/base -I/home/zjm/my_server/project/include/libmevent/net
 
 CXX_FLAGS = -std=c++11 -Wall -g
 

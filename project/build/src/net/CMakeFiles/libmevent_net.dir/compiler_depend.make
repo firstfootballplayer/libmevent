@@ -1069,6 +1069,7 @@ src/net/CMakeFiles/libmevent_net.dir/Channel.cc.o: ../src/net/Channel.cc \
 
 src/net/CMakeFiles/libmevent_net.dir/DefaultPoller.cc.o: ../src/net/DefaultPoller.cc \
   /usr/include/stdc-predef.h \
+  ../include/libmevent/net/EPollPoller.h \
   ../include/libmevent/net/Poller.h \
   /usr/include/c++/5/map \
   /usr/include/c++/5/bits/stl_tree.h \
@@ -1479,7 +1480,6 @@ src/net/CMakeFiles/libmevent_net.dir/DefaultPoller.cc.o: ../src/net/DefaultPolle
   /usr/include/c++/5/backward/auto_ptr.h \
   ../include/libmevent/net/TimerId.h \
   ../include/libmevent/net/PollPoller.h \
-  ../include/libmevent/net/EPollPoller.h \
   ../include/libmevent/net/SelectPoller.h \
   /usr/include/poll.h \
   /usr/include/x86_64-linux-gnu/sys/poll.h \

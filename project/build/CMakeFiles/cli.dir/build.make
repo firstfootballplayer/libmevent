@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zjm/my_server/lib2/project
+CMAKE_SOURCE_DIR = /home/zjm/my_server/project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zjm/my_server/lib2/project/build
+CMAKE_BINARY_DIR = /home/zjm/my_server/project/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/cli.dir/depend.make
@@ -72,78 +72,78 @@ include CMakeFiles/cli.dir/flags.make
 CMakeFiles/cli.dir/src/SelectPoller.cc.o: CMakeFiles/cli.dir/flags.make
 CMakeFiles/cli.dir/src/SelectPoller.cc.o: ../src/SelectPoller.cc
 CMakeFiles/cli.dir/src/SelectPoller.cc.o: CMakeFiles/cli.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zjm/my_server/lib2/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cli.dir/src/SelectPoller.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cli.dir/src/SelectPoller.cc.o -MF CMakeFiles/cli.dir/src/SelectPoller.cc.o.d -o CMakeFiles/cli.dir/src/SelectPoller.cc.o -c /home/zjm/my_server/lib2/project/src/SelectPoller.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zjm/my_server/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cli.dir/src/SelectPoller.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cli.dir/src/SelectPoller.cc.o -MF CMakeFiles/cli.dir/src/SelectPoller.cc.o.d -o CMakeFiles/cli.dir/src/SelectPoller.cc.o -c /home/zjm/my_server/project/src/SelectPoller.cc
 
 CMakeFiles/cli.dir/src/SelectPoller.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cli.dir/src/SelectPoller.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zjm/my_server/lib2/project/src/SelectPoller.cc > CMakeFiles/cli.dir/src/SelectPoller.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zjm/my_server/project/src/SelectPoller.cc > CMakeFiles/cli.dir/src/SelectPoller.cc.i
 
 CMakeFiles/cli.dir/src/SelectPoller.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cli.dir/src/SelectPoller.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zjm/my_server/lib2/project/src/SelectPoller.cc -o CMakeFiles/cli.dir/src/SelectPoller.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zjm/my_server/project/src/SelectPoller.cc -o CMakeFiles/cli.dir/src/SelectPoller.cc.s
+
+CMakeFiles/cli.dir/src/Webbench.cc.o: CMakeFiles/cli.dir/flags.make
+CMakeFiles/cli.dir/src/Webbench.cc.o: ../src/Webbench.cc
+CMakeFiles/cli.dir/src/Webbench.cc.o: CMakeFiles/cli.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zjm/my_server/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cli.dir/src/Webbench.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cli.dir/src/Webbench.cc.o -MF CMakeFiles/cli.dir/src/Webbench.cc.o.d -o CMakeFiles/cli.dir/src/Webbench.cc.o -c /home/zjm/my_server/project/src/Webbench.cc
+
+CMakeFiles/cli.dir/src/Webbench.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cli.dir/src/Webbench.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zjm/my_server/project/src/Webbench.cc > CMakeFiles/cli.dir/src/Webbench.cc.i
+
+CMakeFiles/cli.dir/src/Webbench.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cli.dir/src/Webbench.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zjm/my_server/project/src/Webbench.cc -o CMakeFiles/cli.dir/src/Webbench.cc.s
 
 CMakeFiles/cli.dir/src/cJSON.cpp.o: CMakeFiles/cli.dir/flags.make
 CMakeFiles/cli.dir/src/cJSON.cpp.o: ../src/cJSON.cpp
 CMakeFiles/cli.dir/src/cJSON.cpp.o: CMakeFiles/cli.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zjm/my_server/lib2/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cli.dir/src/cJSON.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cli.dir/src/cJSON.cpp.o -MF CMakeFiles/cli.dir/src/cJSON.cpp.o.d -o CMakeFiles/cli.dir/src/cJSON.cpp.o -c /home/zjm/my_server/lib2/project/src/cJSON.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zjm/my_server/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cli.dir/src/cJSON.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cli.dir/src/cJSON.cpp.o -MF CMakeFiles/cli.dir/src/cJSON.cpp.o.d -o CMakeFiles/cli.dir/src/cJSON.cpp.o -c /home/zjm/my_server/project/src/cJSON.cpp
 
 CMakeFiles/cli.dir/src/cJSON.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cli.dir/src/cJSON.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zjm/my_server/lib2/project/src/cJSON.cpp > CMakeFiles/cli.dir/src/cJSON.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zjm/my_server/project/src/cJSON.cpp > CMakeFiles/cli.dir/src/cJSON.cpp.i
 
 CMakeFiles/cli.dir/src/cJSON.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cli.dir/src/cJSON.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zjm/my_server/lib2/project/src/cJSON.cpp -o CMakeFiles/cli.dir/src/cJSON.cpp.s
-
-CMakeFiles/cli.dir/src/echo.cc.o: CMakeFiles/cli.dir/flags.make
-CMakeFiles/cli.dir/src/echo.cc.o: ../src/echo.cc
-CMakeFiles/cli.dir/src/echo.cc.o: CMakeFiles/cli.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zjm/my_server/lib2/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cli.dir/src/echo.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cli.dir/src/echo.cc.o -MF CMakeFiles/cli.dir/src/echo.cc.o.d -o CMakeFiles/cli.dir/src/echo.cc.o -c /home/zjm/my_server/lib2/project/src/echo.cc
-
-CMakeFiles/cli.dir/src/echo.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cli.dir/src/echo.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zjm/my_server/lib2/project/src/echo.cc > CMakeFiles/cli.dir/src/echo.cc.i
-
-CMakeFiles/cli.dir/src/echo.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cli.dir/src/echo.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zjm/my_server/lib2/project/src/echo.cc -o CMakeFiles/cli.dir/src/echo.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zjm/my_server/project/src/cJSON.cpp -o CMakeFiles/cli.dir/src/cJSON.cpp.s
 
 CMakeFiles/cli.dir/src/main.cc.o: CMakeFiles/cli.dir/flags.make
 CMakeFiles/cli.dir/src/main.cc.o: ../src/main.cc
 CMakeFiles/cli.dir/src/main.cc.o: CMakeFiles/cli.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zjm/my_server/lib2/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cli.dir/src/main.cc.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cli.dir/src/main.cc.o -MF CMakeFiles/cli.dir/src/main.cc.o.d -o CMakeFiles/cli.dir/src/main.cc.o -c /home/zjm/my_server/lib2/project/src/main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zjm/my_server/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cli.dir/src/main.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cli.dir/src/main.cc.o -MF CMakeFiles/cli.dir/src/main.cc.o.d -o CMakeFiles/cli.dir/src/main.cc.o -c /home/zjm/my_server/project/src/main.cc
 
 CMakeFiles/cli.dir/src/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cli.dir/src/main.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zjm/my_server/lib2/project/src/main.cc > CMakeFiles/cli.dir/src/main.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zjm/my_server/project/src/main.cc > CMakeFiles/cli.dir/src/main.cc.i
 
 CMakeFiles/cli.dir/src/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cli.dir/src/main.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zjm/my_server/lib2/project/src/main.cc -o CMakeFiles/cli.dir/src/main.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zjm/my_server/project/src/main.cc -o CMakeFiles/cli.dir/src/main.cc.s
 
 CMakeFiles/cli.dir/src/main.cpp.o: CMakeFiles/cli.dir/flags.make
 CMakeFiles/cli.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/cli.dir/src/main.cpp.o: CMakeFiles/cli.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zjm/my_server/lib2/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cli.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cli.dir/src/main.cpp.o -MF CMakeFiles/cli.dir/src/main.cpp.o.d -o CMakeFiles/cli.dir/src/main.cpp.o -c /home/zjm/my_server/lib2/project/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zjm/my_server/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cli.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cli.dir/src/main.cpp.o -MF CMakeFiles/cli.dir/src/main.cpp.o.d -o CMakeFiles/cli.dir/src/main.cpp.o -c /home/zjm/my_server/project/src/main.cpp
 
 CMakeFiles/cli.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cli.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zjm/my_server/lib2/project/src/main.cpp > CMakeFiles/cli.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zjm/my_server/project/src/main.cpp > CMakeFiles/cli.dir/src/main.cpp.i
 
 CMakeFiles/cli.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cli.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zjm/my_server/lib2/project/src/main.cpp -o CMakeFiles/cli.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zjm/my_server/project/src/main.cpp -o CMakeFiles/cli.dir/src/main.cpp.s
 
 # Object files for target cli
 cli_OBJECTS = \
 "CMakeFiles/cli.dir/src/SelectPoller.cc.o" \
+"CMakeFiles/cli.dir/src/Webbench.cc.o" \
 "CMakeFiles/cli.dir/src/cJSON.cpp.o" \
-"CMakeFiles/cli.dir/src/echo.cc.o" \
 "CMakeFiles/cli.dir/src/main.cc.o" \
 "CMakeFiles/cli.dir/src/main.cpp.o"
 
@@ -151,8 +151,8 @@ cli_OBJECTS = \
 cli_EXTERNAL_OBJECTS =
 
 ../bin/cli: CMakeFiles/cli.dir/src/SelectPoller.cc.o
+../bin/cli: CMakeFiles/cli.dir/src/Webbench.cc.o
 ../bin/cli: CMakeFiles/cli.dir/src/cJSON.cpp.o
-../bin/cli: CMakeFiles/cli.dir/src/echo.cc.o
 ../bin/cli: CMakeFiles/cli.dir/src/main.cc.o
 ../bin/cli: CMakeFiles/cli.dir/src/main.cpp.o
 ../bin/cli: CMakeFiles/cli.dir/build.make
@@ -165,7 +165,7 @@ cli_EXTERNAL_OBJECTS =
 ../bin/cli: src/net/liblibmevent_net.so
 ../bin/cli: /usr/lib/x86_64-linux-gnu/libpthread.so
 ../bin/cli: CMakeFiles/cli.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zjm/my_server/lib2/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../bin/cli"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zjm/my_server/project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../bin/cli"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cli.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -177,6 +177,6 @@ CMakeFiles/cli.dir/clean:
 .PHONY : CMakeFiles/cli.dir/clean
 
 CMakeFiles/cli.dir/depend:
-	cd /home/zjm/my_server/lib2/project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zjm/my_server/lib2/project /home/zjm/my_server/lib2/project /home/zjm/my_server/lib2/project/build /home/zjm/my_server/lib2/project/build /home/zjm/my_server/lib2/project/build/CMakeFiles/cli.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zjm/my_server/project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zjm/my_server/project /home/zjm/my_server/project /home/zjm/my_server/project/build /home/zjm/my_server/project/build /home/zjm/my_server/project/build/CMakeFiles/cli.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cli.dir/depend
 

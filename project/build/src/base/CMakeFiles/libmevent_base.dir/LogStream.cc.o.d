@@ -1,9 +1,9 @@
 src/base/CMakeFiles/libmevent_base.dir/LogStream.cc.o: \
- /home/zjm/my_server/lib2/project/src/base/LogStream.cc \
+ /home/zjm/my_server/project/src/base/LogStream.cc \
  /usr/include/stdc-predef.h \
- /home/zjm/my_server/lib2/project/src/base/../../include/libmevent/base/LogStream.h \
- /home/zjm/my_server/lib2/project/src/base/../../include/libmevent/base/noncopyable.h \
- /home/zjm/my_server/lib2/project/src/base/../../include/libmevent/base/StringPiece.h \
+ /home/zjm/my_server/project/src/base/../../include/libmevent/base/LogStream.h \
+ /home/zjm/my_server/project/src/base/../../include/libmevent/base/noncopyable.h \
+ /home/zjm/my_server/project/src/base/../../include/libmevent/base/StringPiece.h \
  /usr/include/string.h /usr/include/features.h \
  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -19,7 +19,7 @@ src/base/CMakeFiles/libmevent_base.dir/LogStream.cc.o: \
  /usr/include/wchar.h /usr/include/stdio.h \
  /usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
- /home/zjm/my_server/lib2/project/src/base/../../include/libmevent/base/Types.h \
+ /home/zjm/my_server/project/src/base/../../include/libmevent/base/Types.h \
  /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
  /usr/include/c++/5/string /usr/include/c++/5/bits/char_traits.h \
  /usr/include/c++/5/bits/stl_algobase.h \

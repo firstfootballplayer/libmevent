@@ -47,7 +47,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/cli.dir/DependInfo.cmake"
+  "CMakeFiles/ser.dir/DependInfo.cmake"
   "src/base/CMakeFiles/libmevent_base.dir/DependInfo.cmake"
   "src/net/CMakeFiles/libmevent_net.dir/DependInfo.cmake"
   )

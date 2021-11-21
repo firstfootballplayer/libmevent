@@ -1,10 +1,10 @@
 src/net/CMakeFiles/libmevent_net.dir/Channel.cc.o: \
- /home/zjm/my_server/lib2/project/src/net/Channel.cc \
+ /home/zjm/my_server/project/src/net/Channel.cc \
  /usr/include/stdc-predef.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/Logging.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/LogStream.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/noncopyable.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/StringPiece.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/Logging.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/LogStream.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/noncopyable.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/StringPiece.h \
  /usr/include/string.h /usr/include/features.h \
  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -20,7 +20,7 @@ src/net/CMakeFiles/libmevent_net.dir/Channel.cc.o: \
  /usr/include/wchar.h /usr/include/stdio.h \
  /usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/Types.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/Types.h \
  /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
  /usr/include/c++/5/string /usr/include/c++/5/bits/char_traits.h \
  /usr/include/c++/5/bits/stl_algobase.h \
@@ -90,8 +90,8 @@ src/net/CMakeFiles/libmevent_net.dir/Channel.cc.o: \
  /usr/include/c++/5/bits/functional_hash.h \
  /usr/include/c++/5/bits/hash_bytes.h \
  /usr/include/c++/5/bits/basic_string.tcc /usr/include/assert.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/Timestamp.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/copyable.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/Timestamp.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/copyable.h \
  /usr/include/boost/operators.hpp /usr/include/boost/config.hpp \
  /usr/include/boost/config/user.hpp \
  /usr/include/boost/config/select_compiler_config.hpp \
@@ -126,7 +126,7 @@ src/net/CMakeFiles/libmevent_net.dir/Channel.cc.o: \
  /usr/include/c++/5/bits/istream.tcc \
  /usr/include/c++/5/bits/stream_iterator.h \
  /usr/include/boost/detail/workaround.hpp \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/net/Channel.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/net/Channel.h \
  /usr/include/c++/5/functional /usr/include/c++/5/typeinfo \
  /usr/include/c++/5/tuple /usr/include/c++/5/utility \
  /usr/include/c++/5/bits/stl_relops.h /usr/include/c++/5/array \
@@ -144,7 +144,7 @@ src/net/CMakeFiles/libmevent_net.dir/Channel.cc.o: \
  /usr/include/c++/5/bits/shared_ptr_atomic.h \
  /usr/include/c++/5/bits/atomic_base.h \
  /usr/include/c++/5/backward/auto_ptr.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/net/EventLoop.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/net/EventLoop.h \
  /usr/include/c++/5/atomic /usr/include/c++/5/vector \
  /usr/include/c++/5/bits/stl_vector.h \
  /usr/include/c++/5/bits/stl_bvector.h /usr/include/c++/5/bits/vector.tcc \
@@ -350,10 +350,10 @@ src/net/CMakeFiles/libmevent_net.dir/Channel.cc.o: \
  /usr/include/boost/utility/enable_if.hpp \
  /usr/include/boost/core/enable_if.hpp \
  /usr/include/boost/type_traits/is_same.hpp \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/Mutex.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/CurrentThread.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/net/Callbacks.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/net/TimerId.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/Mutex.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/CurrentThread.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/net/Callbacks.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/net/TimerId.h \
  /usr/include/c++/5/sstream /usr/include/c++/5/bits/sstream.tcc \
  /usr/include/poll.h /usr/include/x86_64-linux-gnu/sys/poll.h \
  /usr/include/x86_64-linux-gnu/bits/poll.h

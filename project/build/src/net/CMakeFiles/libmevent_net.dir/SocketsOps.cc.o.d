@@ -1,7 +1,7 @@
 src/net/CMakeFiles/libmevent_net.dir/SocketsOps.cc.o: \
- /home/zjm/my_server/lib2/project/src/net/SocketsOps.cc \
+ /home/zjm/my_server/project/src/net/SocketsOps.cc \
  /usr/include/stdc-predef.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/net/SocketsOps.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/net/SocketsOps.h \
  /usr/include/arpa/inet.h /usr/include/features.h \
  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -33,10 +33,10 @@ src/net/CMakeFiles/libmevent_net.dir/SocketsOps.cc.o: \
  /usr/include/x86_64-linux-gnu/asm/sockios.h \
  /usr/include/asm-generic/sockios.h \
  /usr/include/x86_64-linux-gnu/bits/in.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/Logging.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/LogStream.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/noncopyable.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/StringPiece.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/Logging.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/LogStream.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/noncopyable.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/StringPiece.h \
  /usr/include/string.h /usr/include/xlocale.h /usr/include/c++/5/iosfwd \
  /usr/include/x86_64-linux-gnu/c++/5/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/5/bits/os_defines.h \
@@ -45,7 +45,7 @@ src/net/CMakeFiles/libmevent_net.dir/SocketsOps.cc.o: \
  /usr/include/c++/5/bits/postypes.h /usr/include/c++/5/cwchar \
  /usr/include/wchar.h /usr/include/stdio.h \
  /usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/Types.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/Types.h \
  /usr/include/c++/5/string /usr/include/c++/5/bits/char_traits.h \
  /usr/include/c++/5/bits/stl_algobase.h \
  /usr/include/c++/5/bits/functexcept.h \
@@ -102,8 +102,8 @@ src/net/CMakeFiles/libmevent_net.dir/SocketsOps.cc.o: \
  /usr/include/c++/5/bits/functional_hash.h \
  /usr/include/c++/5/bits/hash_bytes.h \
  /usr/include/c++/5/bits/basic_string.tcc /usr/include/assert.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/Timestamp.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/copyable.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/Timestamp.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/copyable.h \
  /usr/include/boost/operators.hpp /usr/include/boost/config.hpp \
  /usr/include/boost/config/user.hpp \
  /usr/include/boost/config/select_compiler_config.hpp \
@@ -138,7 +138,7 @@ src/net/CMakeFiles/libmevent_net.dir/SocketsOps.cc.o: \
  /usr/include/c++/5/bits/istream.tcc \
  /usr/include/c++/5/bits/stream_iterator.h \
  /usr/include/boost/detail/workaround.hpp \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/net/Endian.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/net/Endian.h \
  /usr/include/fcntl.h /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/stat.h

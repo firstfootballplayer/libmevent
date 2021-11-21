@@ -1,7 +1,7 @@
 src/net/CMakeFiles/libmevent_net.dir/EventLoop.cc.o: \
- /home/zjm/my_server/lib2/project/src/net/EventLoop.cc \
+ /home/zjm/my_server/project/src/net/EventLoop.cc \
  /usr/include/stdc-predef.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/net/EventLoop.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/net/EventLoop.h \
  /usr/include/c++/5/atomic /usr/include/c++/5/bits/atomic_base.h \
  /usr/include/x86_64-linux-gnu/c++/5/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/5/bits/os_defines.h \
@@ -309,13 +309,13 @@ src/net/CMakeFiles/libmevent_net.dir/EventLoop.cc.o: \
  /usr/include/boost/utility/enable_if.hpp \
  /usr/include/boost/core/enable_if.hpp \
  /usr/include/boost/type_traits/is_same.hpp \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/Mutex.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/CurrentThread.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/Types.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/Mutex.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/CurrentThread.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/Types.h \
  /usr/include/assert.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/noncopyable.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/Timestamp.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/copyable.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/noncopyable.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/Timestamp.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/copyable.h \
  /usr/include/boost/operators.hpp /usr/include/boost/iterator.hpp \
  /usr/include/c++/5/iterator /usr/include/c++/5/ostream \
  /usr/include/c++/5/ios /usr/include/c++/5/bits/ios_base.h \
@@ -335,7 +335,7 @@ src/net/CMakeFiles/libmevent_net.dir/EventLoop.cc.o: \
  /usr/include/c++/5/bits/ostream.tcc /usr/include/c++/5/istream \
  /usr/include/c++/5/bits/istream.tcc \
  /usr/include/c++/5/bits/stream_iterator.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/net/Callbacks.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/net/Callbacks.h \
  /usr/include/c++/5/memory /usr/include/c++/5/bits/stl_raw_storage_iter.h \
  /usr/include/c++/5/ext/concurrence.h \
  /usr/include/c++/5/bits/unique_ptr.h \
@@ -345,15 +345,15 @@ src/net/CMakeFiles/libmevent_net.dir/EventLoop.cc.o: \
  /usr/include/c++/5/ext/aligned_buffer.h \
  /usr/include/c++/5/bits/shared_ptr_atomic.h \
  /usr/include/c++/5/backward/auto_ptr.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/net/TimerId.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/Logging.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/LogStream.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/StringPiece.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/net/Channel.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/net/Poller.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/net/TimerId.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/Logging.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/LogStream.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/StringPiece.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/net/Channel.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/net/Poller.h \
  /usr/include/c++/5/map /usr/include/c++/5/bits/stl_tree.h \
  /usr/include/c++/5/bits/stl_map.h /usr/include/c++/5/bits/stl_multimap.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/net/SocketsOps.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/net/SocketsOps.h \
  /usr/include/arpa/inet.h /usr/include/netinet/in.h \
  /usr/include/x86_64-linux-gnu/sys/socket.h \
  /usr/include/x86_64-linux-gnu/sys/uio.h \
@@ -366,7 +366,7 @@ src/net/CMakeFiles/libmevent_net.dir/EventLoop.cc.o: \
  /usr/include/x86_64-linux-gnu/asm/sockios.h \
  /usr/include/asm-generic/sockios.h \
  /usr/include/x86_64-linux-gnu/bits/in.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/net/TimerQueue.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/net/TimerQueue.h \
  /usr/include/c++/5/set /usr/include/c++/5/bits/stl_set.h \
  /usr/include/c++/5/bits/stl_multiset.h /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum.h \

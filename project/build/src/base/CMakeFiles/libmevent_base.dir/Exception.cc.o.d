@@ -1,8 +1,8 @@
 src/base/CMakeFiles/libmevent_base.dir/Exception.cc.o: \
- /home/zjm/my_server/lib2/project/src/base/Exception.cc \
+ /home/zjm/my_server/project/src/base/Exception.cc \
  /usr/include/stdc-predef.h \
- /home/zjm/my_server/lib2/project/src/base/../../include/libmevent/base/Exception.h \
- /home/zjm/my_server/lib2/project/src/base/../../include/libmevent/base/Types.h \
+ /home/zjm/my_server/project/src/base/../../include/libmevent/base/Exception.h \
+ /home/zjm/my_server/project/src/base/../../include/libmevent/base/Types.h \
  /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -87,4 +87,4 @@ src/base/CMakeFiles/libmevent_base.dir/Exception.cc.o: \
  /usr/include/c++/5/bits/functional_hash.h \
  /usr/include/c++/5/bits/hash_bytes.h \
  /usr/include/c++/5/bits/basic_string.tcc /usr/include/assert.h \
- /home/zjm/my_server/lib2/project/src/base/../../include/libmevent/base/CurrentThread.h
+ /home/zjm/my_server/project/src/base/../../include/libmevent/base/CurrentThread.h

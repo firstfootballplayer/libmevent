@@ -1,4 +1,4 @@
-# Install script for directory: /home/zjm/my_server/lib2/project
+# Install script for directory: /home/zjm/my_server/project
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,8 +44,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/zjm/my_server/lib2/project/build/src/base/cmake_install.cmake")
-  include("/home/zjm/my_server/lib2/project/build/src/net/cmake_install.cmake")
+  include("/home/zjm/my_server/project/build/src/base/cmake_install.cmake")
+  include("/home/zjm/my_server/project/build/src/net/cmake_install.cmake")
 
 endif()
 
@@ -57,5 +57,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/zjm/my_server/lib2/project/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/zjm/my_server/project/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

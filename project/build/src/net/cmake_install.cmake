@@ -1,4 +1,4 @@
-# Install script for directory: /home/zjm/my_server/lib2/project/src/net
+# Install script for directory: /home/zjm/my_server/project/src/net
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

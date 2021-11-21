@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zjm/my_server/lib2/project
+CMAKE_SOURCE_DIR = /home/zjm/my_server/project
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zjm/my_server/lib2/project/build
+CMAKE_BINARY_DIR = /home/zjm/my_server/project/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zjm/my_server/lib2/project/build/CMakeFiles /home/zjm/my_server/lib2/project/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zjm/my_server/project/build/CMakeFiles /home/zjm/my_server/project/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zjm/my_server/lib2/project/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zjm/my_server/project/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,17 +117,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named cli
+# Target rules for targets named ser
 
 # Build rule for target.
-cli: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cli
-.PHONY : cli
+ser: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ser
+.PHONY : ser
 
 # fast build rule for target.
-cli/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cli.dir/build.make CMakeFiles/cli.dir/build
-.PHONY : cli/fast
+ser/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ser.dir/build.make CMakeFiles/ser.dir/build
+.PHONY : ser/fast
 
 #=============================================================================
 # Target rules for targets named libmevent_base
@@ -160,7 +160,7 @@ src/SelectPoller.o: src/SelectPoller.cc.o
 
 # target to build an object file
 src/SelectPoller.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cli.dir/build.make CMakeFiles/cli.dir/src/SelectPoller.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ser.dir/build.make CMakeFiles/ser.dir/src/SelectPoller.cc.o
 .PHONY : src/SelectPoller.cc.o
 
 src/SelectPoller.i: src/SelectPoller.cc.i
@@ -168,7 +168,7 @@ src/SelectPoller.i: src/SelectPoller.cc.i
 
 # target to preprocess a source file
 src/SelectPoller.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cli.dir/build.make CMakeFiles/cli.dir/src/SelectPoller.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ser.dir/build.make CMakeFiles/ser.dir/src/SelectPoller.cc.i
 .PHONY : src/SelectPoller.cc.i
 
 src/SelectPoller.s: src/SelectPoller.cc.s
@@ -176,15 +176,39 @@ src/SelectPoller.s: src/SelectPoller.cc.s
 
 # target to generate assembly for a file
 src/SelectPoller.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cli.dir/build.make CMakeFiles/cli.dir/src/SelectPoller.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ser.dir/build.make CMakeFiles/ser.dir/src/SelectPoller.cc.s
 .PHONY : src/SelectPoller.cc.s
+
+src/Webbench.o: src/Webbench.cc.o
+.PHONY : src/Webbench.o
+
+# target to build an object file
+src/Webbench.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ser.dir/build.make CMakeFiles/ser.dir/src/Webbench.cc.o
+.PHONY : src/Webbench.cc.o
+
+src/Webbench.i: src/Webbench.cc.i
+.PHONY : src/Webbench.i
+
+# target to preprocess a source file
+src/Webbench.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ser.dir/build.make CMakeFiles/ser.dir/src/Webbench.cc.i
+.PHONY : src/Webbench.cc.i
+
+src/Webbench.s: src/Webbench.cc.s
+.PHONY : src/Webbench.s
+
+# target to generate assembly for a file
+src/Webbench.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ser.dir/build.make CMakeFiles/ser.dir/src/Webbench.cc.s
+.PHONY : src/Webbench.cc.s
 
 src/cJSON.o: src/cJSON.cpp.o
 .PHONY : src/cJSON.o
 
 # target to build an object file
 src/cJSON.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cli.dir/build.make CMakeFiles/cli.dir/src/cJSON.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ser.dir/build.make CMakeFiles/ser.dir/src/cJSON.cpp.o
 .PHONY : src/cJSON.cpp.o
 
 src/cJSON.i: src/cJSON.cpp.i
@@ -192,7 +216,7 @@ src/cJSON.i: src/cJSON.cpp.i
 
 # target to preprocess a source file
 src/cJSON.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cli.dir/build.make CMakeFiles/cli.dir/src/cJSON.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ser.dir/build.make CMakeFiles/ser.dir/src/cJSON.cpp.i
 .PHONY : src/cJSON.cpp.i
 
 src/cJSON.s: src/cJSON.cpp.s
@@ -200,39 +224,15 @@ src/cJSON.s: src/cJSON.cpp.s
 
 # target to generate assembly for a file
 src/cJSON.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cli.dir/build.make CMakeFiles/cli.dir/src/cJSON.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ser.dir/build.make CMakeFiles/ser.dir/src/cJSON.cpp.s
 .PHONY : src/cJSON.cpp.s
-
-src/echo.o: src/echo.cc.o
-.PHONY : src/echo.o
-
-# target to build an object file
-src/echo.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cli.dir/build.make CMakeFiles/cli.dir/src/echo.cc.o
-.PHONY : src/echo.cc.o
-
-src/echo.i: src/echo.cc.i
-.PHONY : src/echo.i
-
-# target to preprocess a source file
-src/echo.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cli.dir/build.make CMakeFiles/cli.dir/src/echo.cc.i
-.PHONY : src/echo.cc.i
-
-src/echo.s: src/echo.cc.s
-.PHONY : src/echo.s
-
-# target to generate assembly for a file
-src/echo.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cli.dir/build.make CMakeFiles/cli.dir/src/echo.cc.s
-.PHONY : src/echo.cc.s
 
 src/main.o: src/main.cc.o
 .PHONY : src/main.o
 
 # target to build an object file
 src/main.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cli.dir/build.make CMakeFiles/cli.dir/src/main.cc.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ser.dir/build.make CMakeFiles/ser.dir/src/main.cc.o
 .PHONY : src/main.cc.o
 
 src/main.i: src/main.cc.i
@@ -240,7 +240,7 @@ src/main.i: src/main.cc.i
 
 # target to preprocess a source file
 src/main.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cli.dir/build.make CMakeFiles/cli.dir/src/main.cc.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ser.dir/build.make CMakeFiles/ser.dir/src/main.cc.i
 .PHONY : src/main.cc.i
 
 src/main.s: src/main.cc.s
@@ -248,7 +248,7 @@ src/main.s: src/main.cc.s
 
 # target to generate assembly for a file
 src/main.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cli.dir/build.make CMakeFiles/cli.dir/src/main.cc.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ser.dir/build.make CMakeFiles/ser.dir/src/main.cc.s
 .PHONY : src/main.cc.s
 
 src/main.o: src/main.cpp.o
@@ -256,7 +256,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cli.dir/build.make CMakeFiles/cli.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ser.dir/build.make CMakeFiles/ser.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -264,7 +264,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cli.dir/build.make CMakeFiles/cli.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ser.dir/build.make CMakeFiles/ser.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -272,7 +272,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cli.dir/build.make CMakeFiles/cli.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ser.dir/build.make CMakeFiles/ser.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -283,18 +283,18 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... cli"
 	@echo "... libmevent_base"
 	@echo "... libmevent_net"
+	@echo "... ser"
 	@echo "... src/SelectPoller.o"
 	@echo "... src/SelectPoller.i"
 	@echo "... src/SelectPoller.s"
+	@echo "... src/Webbench.o"
+	@echo "... src/Webbench.i"
+	@echo "... src/Webbench.s"
 	@echo "... src/cJSON.o"
 	@echo "... src/cJSON.i"
 	@echo "... src/cJSON.s"
-	@echo "... src/echo.o"
-	@echo "... src/echo.i"
-	@echo "... src/echo.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

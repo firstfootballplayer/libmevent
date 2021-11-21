@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -Dlibmevent_net_EXPORTS
 
-CXX_INCLUDES = -I/home/zjm/my_server/lib2/project/src/net/../../include -I/home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base -I/home/zjm/my_server/lib2/project/src/net/../../include/libmevent/net
+CXX_INCLUDES = -I/home/zjm/my_server/project/src/net/../../include -I/home/zjm/my_server/project/src/net/../../include/libmevent/base -I/home/zjm/my_server/project/src/net/../../include/libmevent/net
 
 CXX_FLAGS = -fPIC -std=c++11 -Wall -g
 

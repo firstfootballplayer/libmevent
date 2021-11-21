@@ -1,12 +1,12 @@
 src/base/CMakeFiles/libmevent_base.dir/AsyncLogging.cc.o: \
- /home/zjm/my_server/lib2/project/src/base/AsyncLogging.cc \
+ /home/zjm/my_server/project/src/base/AsyncLogging.cc \
  /usr/include/stdc-predef.h \
- /home/zjm/my_server/lib2/project/src/base/../../include/libmevent/base/AsyncLogging.h \
- /home/zjm/my_server/lib2/project/src/base/../../include/libmevent/base/CountDownLatch.h \
- /home/zjm/my_server/lib2/project/src/base/../../include/libmevent/base/Condition.h \
- /home/zjm/my_server/lib2/project/src/base/../../include/libmevent/base/Mutex.h \
- /home/zjm/my_server/lib2/project/src/base/../../include/libmevent/base/CurrentThread.h \
- /home/zjm/my_server/lib2/project/src/base/../../include/libmevent/base/Types.h \
+ /home/zjm/my_server/project/src/base/../../include/libmevent/base/AsyncLogging.h \
+ /home/zjm/my_server/project/src/base/../../include/libmevent/base/CountDownLatch.h \
+ /home/zjm/my_server/project/src/base/../../include/libmevent/base/Condition.h \
+ /home/zjm/my_server/project/src/base/../../include/libmevent/base/Mutex.h \
+ /home/zjm/my_server/project/src/base/../../include/libmevent/base/CurrentThread.h \
+ /home/zjm/my_server/project/src/base/../../include/libmevent/base/Types.h \
  /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -91,9 +91,9 @@ src/base/CMakeFiles/libmevent_base.dir/AsyncLogging.cc.o: \
  /usr/include/c++/5/bits/functional_hash.h \
  /usr/include/c++/5/bits/hash_bytes.h \
  /usr/include/c++/5/bits/basic_string.tcc /usr/include/assert.h \
- /home/zjm/my_server/lib2/project/src/base/../../include/libmevent/base/noncopyable.h \
- /home/zjm/my_server/lib2/project/src/base/../../include/libmevent/base/Thread.h \
- /home/zjm/my_server/lib2/project/src/base/../../include/libmevent/base/Atomic.h \
+ /home/zjm/my_server/project/src/base/../../include/libmevent/base/noncopyable.h \
+ /home/zjm/my_server/project/src/base/../../include/libmevent/base/Thread.h \
+ /home/zjm/my_server/project/src/base/../../include/libmevent/base/Atomic.h \
  /usr/include/c++/5/functional /usr/include/c++/5/typeinfo \
  /usr/include/c++/5/tuple /usr/include/c++/5/utility \
  /usr/include/c++/5/bits/stl_relops.h /usr/include/c++/5/array \
@@ -111,14 +111,14 @@ src/base/CMakeFiles/libmevent_base.dir/AsyncLogging.cc.o: \
  /usr/include/c++/5/bits/shared_ptr_atomic.h \
  /usr/include/c++/5/bits/atomic_base.h \
  /usr/include/c++/5/backward/auto_ptr.h \
- /home/zjm/my_server/lib2/project/src/base/../../include/libmevent/base/LogStream.h \
- /home/zjm/my_server/lib2/project/src/base/../../include/libmevent/base/StringPiece.h \
+ /home/zjm/my_server/project/src/base/../../include/libmevent/base/LogStream.h \
+ /home/zjm/my_server/project/src/base/../../include/libmevent/base/StringPiece.h \
  /usr/include/c++/5/atomic /usr/include/c++/5/vector \
  /usr/include/c++/5/bits/stl_vector.h \
  /usr/include/c++/5/bits/stl_bvector.h /usr/include/c++/5/bits/vector.tcc \
- /home/zjm/my_server/lib2/project/src/base/../../include/libmevent/base/LogFile.h \
- /home/zjm/my_server/lib2/project/src/base/../../include/libmevent/base/Timestamp.h \
- /home/zjm/my_server/lib2/project/src/base/../../include/libmevent/base/copyable.h \
+ /home/zjm/my_server/project/src/base/../../include/libmevent/base/LogFile.h \
+ /home/zjm/my_server/project/src/base/../../include/libmevent/base/Timestamp.h \
+ /home/zjm/my_server/project/src/base/../../include/libmevent/base/copyable.h \
  /usr/include/boost/operators.hpp /usr/include/boost/config.hpp \
  /usr/include/boost/config/user.hpp \
  /usr/include/boost/config/select_compiler_config.hpp \

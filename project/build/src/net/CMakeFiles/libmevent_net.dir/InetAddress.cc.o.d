@@ -1,9 +1,9 @@
 src/net/CMakeFiles/libmevent_net.dir/InetAddress.cc.o: \
- /home/zjm/my_server/lib2/project/src/net/InetAddress.cc \
+ /home/zjm/my_server/project/src/net/InetAddress.cc \
  /usr/include/stdc-predef.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/net/InetAddress.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/copyable.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/StringPiece.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/net/InetAddress.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/copyable.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/StringPiece.h \
  /usr/include/string.h /usr/include/features.h \
  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -19,7 +19,7 @@ src/net/CMakeFiles/libmevent_net.dir/InetAddress.cc.o: \
  /usr/include/wchar.h /usr/include/stdio.h \
  /usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/Types.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/Types.h \
  /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
  /usr/include/c++/5/string /usr/include/c++/5/bits/char_traits.h \
  /usr/include/c++/5/bits/stl_algobase.h \
@@ -100,10 +100,10 @@ src/net/CMakeFiles/libmevent_net.dir/InetAddress.cc.o: \
  /usr/include/x86_64-linux-gnu/asm/sockios.h \
  /usr/include/asm-generic/sockios.h \
  /usr/include/x86_64-linux-gnu/bits/in.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/Logging.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/LogStream.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/noncopyable.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/Timestamp.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/Logging.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/LogStream.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/noncopyable.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/Timestamp.h \
  /usr/include/boost/operators.hpp /usr/include/boost/config.hpp \
  /usr/include/boost/config/user.hpp \
  /usr/include/boost/config/select_compiler_config.hpp \
@@ -138,8 +138,8 @@ src/net/CMakeFiles/libmevent_net.dir/InetAddress.cc.o: \
  /usr/include/c++/5/bits/istream.tcc \
  /usr/include/c++/5/bits/stream_iterator.h \
  /usr/include/boost/detail/workaround.hpp \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/net/Endian.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/net/SocketsOps.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/net/Endian.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/net/SocketsOps.h \
  /usr/include/arpa/inet.h /usr/include/netdb.h /usr/include/rpc/netdb.h \
  /usr/include/x86_64-linux-gnu/bits/siginfo.h \
  /usr/include/x86_64-linux-gnu/bits/netdb.h

@@ -1,8 +1,8 @@
 src/net/CMakeFiles/libmevent_net.dir/HttpResponse.cc.o: \
- /home/zjm/my_server/lib2/project/src/net/HttpResponse.cc \
+ /home/zjm/my_server/project/src/net/HttpResponse.cc \
  /usr/include/stdc-predef.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/net/HttpResponse.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/Types.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/net/HttpResponse.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/Types.h \
  /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -87,7 +87,7 @@ src/net/CMakeFiles/libmevent_net.dir/HttpResponse.cc.o: \
  /usr/include/c++/5/bits/functional_hash.h \
  /usr/include/c++/5/bits/hash_bytes.h \
  /usr/include/c++/5/bits/basic_string.tcc /usr/include/assert.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/copyable.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/copyable.h \
  /usr/include/c++/5/map /usr/include/c++/5/bits/stl_tree.h \
  /usr/include/c++/5/ext/aligned_buffer.h \
  /usr/include/c++/5/bits/stl_map.h /usr/include/c++/5/tuple \
@@ -95,9 +95,9 @@ src/net/CMakeFiles/libmevent_net.dir/HttpResponse.cc.o: \
  /usr/include/c++/5/array /usr/include/c++/5/stdexcept \
  /usr/include/c++/5/bits/uses_allocator.h \
  /usr/include/c++/5/bits/stl_multimap.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/net/Buffer.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/StringPiece.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/net/Endian.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/net/Buffer.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/StringPiece.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/net/Endian.h \
  /usr/include/c++/5/algorithm /usr/include/c++/5/bits/stl_algo.h \
  /usr/include/c++/5/bits/algorithmfwd.h \
  /usr/include/c++/5/bits/stl_heap.h /usr/include/c++/5/bits/stl_tempbuf.h \

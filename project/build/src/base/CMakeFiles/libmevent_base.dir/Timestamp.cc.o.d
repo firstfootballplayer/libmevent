@@ -1,9 +1,9 @@
 src/base/CMakeFiles/libmevent_base.dir/Timestamp.cc.o: \
- /home/zjm/my_server/lib2/project/src/base/Timestamp.cc \
+ /home/zjm/my_server/project/src/base/Timestamp.cc \
  /usr/include/stdc-predef.h \
- /home/zjm/my_server/lib2/project/src/base/../../include/libmevent/base/Timestamp.h \
- /home/zjm/my_server/lib2/project/src/base/../../include/libmevent/base/copyable.h \
- /home/zjm/my_server/lib2/project/src/base/../../include/libmevent/base/Types.h \
+ /home/zjm/my_server/project/src/base/../../include/libmevent/base/Timestamp.h \
+ /home/zjm/my_server/project/src/base/../../include/libmevent/base/copyable.h \
+ /home/zjm/my_server/project/src/base/../../include/libmevent/base/Types.h \
  /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \

@@ -1,7 +1,7 @@
 src/net/CMakeFiles/libmevent_net.dir/Acceptor.cc.o: \
- /home/zjm/my_server/lib2/project/src/net/Acceptor.cc \
+ /home/zjm/my_server/project/src/net/Acceptor.cc \
  /usr/include/stdc-predef.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/net/Acceptor.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/net/Acceptor.h \
  /usr/include/c++/5/functional \
  /usr/include/x86_64-linux-gnu/c++/5/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/5/bits/os_defines.h \
@@ -91,11 +91,11 @@ src/net/CMakeFiles/libmevent_net.dir/Acceptor.cc.o: \
  /usr/include/c++/5/bits/functional_hash.h \
  /usr/include/c++/5/bits/basic_string.tcc \
  /usr/include/c++/5/bits/uses_allocator.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/net/Channel.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/noncopyable.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/Timestamp.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/copyable.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/Types.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/net/Channel.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/noncopyable.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/Timestamp.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/copyable.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/Types.h \
  /usr/include/string.h /usr/include/assert.h \
  /usr/include/boost/operators.hpp /usr/include/boost/config.hpp \
  /usr/include/boost/config/user.hpp \
@@ -143,11 +143,11 @@ src/net/CMakeFiles/libmevent_net.dir/Acceptor.cc.o: \
  /usr/include/c++/5/bits/shared_ptr_atomic.h \
  /usr/include/c++/5/bits/atomic_base.h \
  /usr/include/c++/5/backward/auto_ptr.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/net/Socket.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/Logging.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/LogStream.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/StringPiece.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/net/EventLoop.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/net/Socket.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/Logging.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/LogStream.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/StringPiece.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/net/EventLoop.h \
  /usr/include/c++/5/atomic /usr/include/c++/5/vector \
  /usr/include/c++/5/bits/stl_vector.h \
  /usr/include/c++/5/bits/stl_bvector.h /usr/include/c++/5/bits/vector.tcc \
@@ -353,11 +353,11 @@ src/net/CMakeFiles/libmevent_net.dir/Acceptor.cc.o: \
  /usr/include/boost/utility/enable_if.hpp \
  /usr/include/boost/core/enable_if.hpp \
  /usr/include/boost/type_traits/is_same.hpp \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/Mutex.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/CurrentThread.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/net/Callbacks.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/net/TimerId.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/net/InetAddress.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/Mutex.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/CurrentThread.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/net/Callbacks.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/net/TimerId.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/net/InetAddress.h \
  /usr/include/netinet/in.h /usr/include/x86_64-linux-gnu/sys/socket.h \
  /usr/include/x86_64-linux-gnu/sys/uio.h \
  /usr/include/x86_64-linux-gnu/bits/uio.h \
@@ -369,7 +369,7 @@ src/net/CMakeFiles/libmevent_net.dir/Acceptor.cc.o: \
  /usr/include/x86_64-linux-gnu/asm/sockios.h \
  /usr/include/asm-generic/sockios.h \
  /usr/include/x86_64-linux-gnu/bits/in.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/net/SocketsOps.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/net/SocketsOps.h \
  /usr/include/arpa/inet.h /usr/include/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \

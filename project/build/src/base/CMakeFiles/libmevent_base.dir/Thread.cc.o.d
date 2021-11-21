@@ -1,20 +1,20 @@
 src/base/CMakeFiles/libmevent_base.dir/Thread.cc.o: \
- /home/zjm/my_server/lib2/project/src/base/Thread.cc \
+ /home/zjm/my_server/project/src/base/Thread.cc \
  /usr/include/stdc-predef.h \
- /home/zjm/my_server/lib2/project/src/base/../../include/libmevent/base/Thread.h \
- /home/zjm/my_server/lib2/project/src/base/../../include/libmevent/base/Atomic.h \
- /home/zjm/my_server/lib2/project/src/base/../../include/libmevent/base/noncopyable.h \
+ /home/zjm/my_server/project/src/base/../../include/libmevent/base/Thread.h \
+ /home/zjm/my_server/project/src/base/../../include/libmevent/base/Atomic.h \
+ /home/zjm/my_server/project/src/base/../../include/libmevent/base/noncopyable.h \
  /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
- /home/zjm/my_server/lib2/project/src/base/../../include/libmevent/base/CountDownLatch.h \
- /home/zjm/my_server/lib2/project/src/base/../../include/libmevent/base/Condition.h \
- /home/zjm/my_server/lib2/project/src/base/../../include/libmevent/base/Mutex.h \
- /home/zjm/my_server/lib2/project/src/base/../../include/libmevent/base/CurrentThread.h \
- /home/zjm/my_server/lib2/project/src/base/../../include/libmevent/base/Types.h \
+ /home/zjm/my_server/project/src/base/../../include/libmevent/base/CountDownLatch.h \
+ /home/zjm/my_server/project/src/base/../../include/libmevent/base/Condition.h \
+ /home/zjm/my_server/project/src/base/../../include/libmevent/base/Mutex.h \
+ /home/zjm/my_server/project/src/base/../../include/libmevent/base/CurrentThread.h \
+ /home/zjm/my_server/project/src/base/../../include/libmevent/base/Types.h \
  /usr/include/string.h /usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h \
  /usr/include/xlocale.h /usr/include/c++/5/string \
  /usr/include/x86_64-linux-gnu/c++/5/bits/c++config.h \
@@ -110,7 +110,7 @@ src/base/CMakeFiles/libmevent_base.dir/Thread.cc.o: \
  /usr/include/c++/5/bits/shared_ptr_atomic.h \
  /usr/include/c++/5/bits/atomic_base.h \
  /usr/include/c++/5/backward/auto_ptr.h \
- /home/zjm/my_server/lib2/project/src/base/../../include/libmevent/base/Exception.h \
+ /home/zjm/my_server/project/src/base/../../include/libmevent/base/Exception.h \
  /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h /usr/include/getopt.h \

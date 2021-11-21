@@ -434,159 +434,6 @@ CMakeFiles/cli.dir/src/SelectPoller.cc.o: ../src/SelectPoller.cc \
   ../include/libmevent/base/StringPiece.h \
   ../include/libmevent/net/Channel.h
 
-CMakeFiles/cli.dir/src/cJSON.cpp.o: ../src/cJSON.cpp \
-  /usr/include/stdc-predef.h \
-  /usr/include/stdio.h \
-  /usr/include/features.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/libio.h \
-  /usr/include/_G_config.h \
-  /usr/include/wchar.h \
-  /usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
-  ../include/cJSON.h
-
-CMakeFiles/cli.dir/src/echo.cc.o: ../src/echo.cc \
-  /usr/include/stdc-predef.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
-  /usr/include/features.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/time.h \
-  /usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h \
-  /usr/include/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap-16.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/sigset.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/sys/socket.h \
-  /usr/include/x86_64-linux-gnu/sys/uio.h \
-  /usr/include/x86_64-linux-gnu/bits/uio.h \
-  /usr/include/x86_64-linux-gnu/bits/socket.h \
-  /usr/include/x86_64-linux-gnu/bits/socket_type.h \
-  /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
-  /usr/include/x86_64-linux-gnu/asm/socket.h \
-  /usr/include/asm-generic/socket.h \
-  /usr/include/x86_64-linux-gnu/asm/sockios.h \
-  /usr/include/asm-generic/sockios.h \
-  /usr/include/fcntl.h \
-  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
-  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
-  /usr/include/x86_64-linux-gnu/bits/stat.h \
-  /usr/include/netinet/in.h \
-  /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h \
-  /usr/include/stdint.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/in.h \
-  /usr/include/arpa/inet.h \
-  /usr/include/netdb.h \
-  /usr/include/rpc/netdb.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo.h \
-  /usr/include/x86_64-linux-gnu/bits/netdb.h \
-  /usr/include/x86_64-linux-gnu/sys/time.h \
-  /usr/include/string.h \
-  /usr/include/xlocale.h \
-  /usr/include/unistd.h \
-  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
-  /usr/include/x86_64-linux-gnu/bits/environments.h \
-  /usr/include/x86_64-linux-gnu/bits/confname.h \
-  /usr/include/getopt.h \
-  /usr/include/stdio.h \
-  /usr/include/libio.h \
-  /usr/include/_G_config.h \
-  /usr/include/wchar.h \
-  /usr/lib/gcc/x86_64-linux-gnu/5/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
-  /usr/include/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/x86_64-linux-gnu/sys/param.h \
-  /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/limits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/syslimits.h \
-  /usr/include/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/linux/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/signal.h \
-  /usr/include/x86_64-linux-gnu/bits/signum.h \
-  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
-  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
-  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
-  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
-  /usr/include/x86_64-linux-gnu/bits/param.h \
-  /usr/include/linux/param.h \
-  /usr/include/x86_64-linux-gnu/asm/param.h \
-  /usr/include/asm-generic/param.h \
-  /usr/include/rpc/types.h \
-  /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
-  /usr/include/linux/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/errno-base.h
-
-CMakeFiles/cli.dir/src/main.cc.o: ../src/main.cc \
-  /usr/include/stdc-predef.h
-
-CMakeFiles/cli.dir/src/main.cpp.o: ../src/main.cpp \
-  /usr/include/stdc-predef.h
-
-
-../src/main.cc:
-
-/usr/include/x86_64-linux-gnu/bits/sigstack.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigaction.h:
-
-/usr/include/x86_64-linux-gnu/bits/signum.h:
-
-/usr/include/linux/limits.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
-
-/usr/include/limits.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/limits.h:
-
-/usr/include/x86_64-linux-gnu/bits/siginfo.h:
-
-/usr/include/rpc/netdb.h:
-
-/usr/include/netdb.h:
-
-/usr/include/x86_64-linux-gnu/bits/fcntl-linux.h:
-
-/usr/include/x86_64-linux-gnu/bits/fcntl.h:
-
-/usr/include/fcntl.h:
-
-../src/echo.cc:
-
-../include/cJSON.h:
 
 ../include/libmevent/base/StringPiece.h:
 
@@ -643,8 +490,6 @@ CMakeFiles/cli.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/c++/5/bits/algorithmfwd.h:
 
 /usr/include/c++/5/bits/stl_tempbuf.h:
-
-../src/main.cpp:
 
 /usr/include/c++/5/functional:
 
@@ -822,10 +667,6 @@ CMakeFiles/cli.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/5/ext/new_allocator.h:
 
-/usr/include/x86_64-linux-gnu/bits/sigthread.h:
-
-/usr/include/x86_64-linux-gnu/bits/stat.h:
-
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
 /usr/include/c++/5/new:
@@ -835,8 +676,6 @@ CMakeFiles/cli.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/c++/5/bits/stream_iterator.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h:
-
-../src/cJSON.cpp:
 
 /usr/include/boost/preprocessor/control/while.hpp:
 
@@ -880,8 +719,6 @@ CMakeFiles/cli.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/5/bits/vector.tcc:
 
-/usr/include/x86_64-linux-gnu/sys/param.h:
-
 /usr/include/c++/5/ext/numeric_traits.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
@@ -895,8 +732,6 @@ CMakeFiles/cli.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/c++/5/ext/alloc_traits.h:
 
 /usr/include/boost/config/select_compiler_config.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/sigcontext.h:
 
 /usr/include/c++/5/atomic:
 
@@ -952,8 +787,6 @@ CMakeFiles/cli.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/5/bits/nested_exception.h:
 
-/usr/include/rpc/types.h:
-
 /usr/include/boost/type_traits/is_reference.hpp:
 
 /usr/include/c++/5/bits/stl_iterator.h:
@@ -965,8 +798,6 @@ CMakeFiles/cli.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/boost/type_traits/detail/cv_traits_impl.hpp:
 
 /usr/include/c++/5/bits/functional_hash.h:
-
-/usr/include/x86_64-linux-gnu/bits/param.h:
 
 /usr/include/c++/5/bits/basic_string.tcc:
 
@@ -994,8 +825,6 @@ CMakeFiles/cli.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
-/usr/include/linux/param.h:
-
 /usr/include/x86_64-linux-gnu/c++/5/bits/ctype_inline.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/xmmintrin.h:
@@ -1014,8 +843,6 @@ CMakeFiles/cli.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/locale.h:
 
-/usr/include/strings.h:
-
 /usr/include/c++/5/initializer_list:
 
 /usr/include/boost/preprocessor/debug/error.hpp:
@@ -1025,8 +852,6 @@ CMakeFiles/cli.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/x86_64-linux-gnu/bits/nan.h:
 
 /usr/include/c++/5/bits/postypes.h:
-
-/usr/include/asm-generic/param.h:
 
 /usr/include/c++/5/cstddef:
 
@@ -1054,8 +879,6 @@ CMakeFiles/cli.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/c++/5/stdexcept:
 
-/usr/include/x86_64-linux-gnu/bits/netdb.h:
-
 /usr/include/boost/preprocessor/tuple/detail/is_single_return.hpp:
 
 /usr/include/c++/5/debug/debug.h:
@@ -1082,8 +905,6 @@ CMakeFiles/cli.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/x86_64-linux-gnu/c++/5/bits/c++allocator.h:
 
-/usr/include/x86_64-linux-gnu/sys/ucontext.h:
-
 /usr/lib/gcc/x86_64-linux-gnu/5/include/adxintrin.h:
 
 /usr/include/x86_64-linux-gnu/c++/5/bits/c++locale.h:
@@ -1099,8 +920,6 @@ CMakeFiles/cli.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/boost/current_function.hpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/5/include/prfchwintrin.h:
-
-/usr/include/x86_64-linux-gnu/asm/param.h:
 
 /usr/include/c++/5/bits/stl_relops.h:
 
@@ -1300,8 +1119,6 @@ CMakeFiles/cli.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/boost/mpl/aux_/config/preprocessor.hpp:
 
-/usr/include/x86_64-linux-gnu/sys/time.h:
-
 /usr/include/boost/preprocessor/control/if.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/poll.h:
@@ -1309,8 +1126,6 @@ CMakeFiles/cli.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/x86_64-linux-gnu/bits/inf.h:
 
 /usr/include/boost/preprocessor/control/iif.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
 
 /usr/include/boost/mpl/aux_/config/dtp.hpp:
 
@@ -1321,8 +1136,6 @@ CMakeFiles/cli.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/c++/5/iosfwd:
 
 /usr/include/boost/preprocessor/stringize.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/local_lim.h:
 
 /usr/include/boost/mpl/eval_if.hpp:
 
@@ -1410,8 +1223,6 @@ CMakeFiles/cli.dir/src/main.cpp.o: ../src/main.cpp \
 
 /usr/include/boost/preprocessor/arithmetic/add.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
-
 /usr/include/boost/preprocessor/arithmetic/dec.hpp:
 
 /usr/include/boost/preprocessor/control/expr_iif.hpp:
@@ -1423,8 +1234,6 @@ CMakeFiles/cli.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
 /usr/include/boost/preprocessor/logical/compl.hpp:
-
-/usr/include/signal.h:
 
 /usr/include/boost/preprocessor/list/fold_right.hpp:
 
@@ -1445,8 +1254,6 @@ CMakeFiles/cli.dir/src/main.cpp.o: ../src/main.cpp \
 /usr/include/x86_64-linux-gnu/bits/huge_vall.h:
 
 /usr/include/boost/type_traits/decay.hpp:
-
-/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed/syslimits.h:
 
 /usr/include/boost/preprocessor/detail/auto_rec.hpp:
 

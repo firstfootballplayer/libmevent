@@ -1,18 +1,17 @@
 src/net/CMakeFiles/libmevent_net.dir/Timer.cc.o: \
- /home/zjm/my_server/lib2/project/src/net/Timer.cc \
- /usr/include/stdc-predef.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/net/Timer.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/Atomic.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/noncopyable.h \
+ /home/zjm/my_server/project/src/net/Timer.cc /usr/include/stdc-predef.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/net/Timer.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/Atomic.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/noncopyable.h \
  /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/Timestamp.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/copyable.h \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/base/Types.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/Timestamp.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/copyable.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/base/Types.h \
  /usr/include/string.h /usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h \
  /usr/include/xlocale.h /usr/include/c++/5/string \
  /usr/include/x86_64-linux-gnu/c++/5/bits/c++config.h \
@@ -125,7 +124,7 @@ src/net/CMakeFiles/libmevent_net.dir/Timer.cc.o: \
  /usr/include/c++/5/bits/istream.tcc \
  /usr/include/c++/5/bits/stream_iterator.h \
  /usr/include/boost/detail/workaround.hpp \
- /home/zjm/my_server/lib2/project/src/net/../../include/libmevent/net/Callbacks.h \
+ /home/zjm/my_server/project/src/net/../../include/libmevent/net/Callbacks.h \
  /usr/include/c++/5/functional /usr/include/c++/5/typeinfo \
  /usr/include/c++/5/tuple /usr/include/c++/5/utility \
  /usr/include/c++/5/bits/stl_relops.h /usr/include/c++/5/array \
